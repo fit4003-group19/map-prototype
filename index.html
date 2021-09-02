@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+
+  <body>
+    <section class="navigator">
+      <div id="mobile-div">
+        <embed type="image/svg+xml" src="./AccessibilityLayers.svg" id="my-embed" width="100%" height="100%"/>
+      </div>
+    </section>
+    <section class="options">
+      <strong class="options-header">Accessibilty Layers</strong>
+      <form>
+        <div>
+          <input type="checkbox" data-layer-id="support-center">
+          <span>Support Center</span>
+        </div>
+        <div>
+          <input type="checkbox" data-layer-id="ramp">
+          <span>Ramp</span>
+        </div>
+        <div>
+          <input type="checkbox" data-layer-id="disabled-toilet">
+          <span>Disabled Toilet</span>
+        </div>
+      </form>
+
+    </section>
+    <h1 class="header">
+      Monash Campus Centre
+    </h1>
+
+    <script src="./node_modules/svg-pan-zoom/dist/svg-pan-zoom.js"></script>
+    <script src="./node_modules/hammerjs/hammer.js"></script>
+    <script src="./js/index.js"></script>
+
+  </body>
+
+</html>
